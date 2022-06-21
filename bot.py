@@ -1,8 +1,7 @@
 import os
 from leveling import bot
-from dotenv import load_dotenv
+import os
 
-load_dotenv(".env")
 TOKEN = os.getenv("TOKEN")
 
 bot.run(TOKEN)
